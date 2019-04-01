@@ -7,13 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8E256C882250E5C000376E80 /* DoubleExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E256C872250E5C000376E80 /* DoubleExtension.swift */; };
 		8EFDEADE2248BEA600D70225 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFDEADD2248BEA600D70225 /* AppDelegate.swift */; };
 		8EFDEAE02248BEA600D70225 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFDEADF2248BEA600D70225 /* ViewController.swift */; };
 		8EFDEAE22248BEA700D70225 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8EFDEAE12248BEA700D70225 /* Assets.xcassets */; };
 		8EFDEAE52248BEA700D70225 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EFDEAE32248BEA700D70225 /* Main.storyboard */; };
+		8EFDEAEE2248BF9900D70225 /* TimeIntervalEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFDEAED2248BF9900D70225 /* TimeIntervalEnum.swift */; };
+		8EFDEAF02248C01A00D70225 /* InterviersAnswerEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFDEAEF2248C01A00D70225 /* InterviersAnswerEnum.swift */; };
+		8EFDEAF22248C11300D70225 /* TimeOfInterviewEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFDEAF12248C11300D70225 /* TimeOfInterviewEnum.swift */; };
+		8EFDEAF42248C30200D70225 /* FrequencyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFDEAF32248C30200D70225 /* FrequencyModel.swift */; };
+		8EFDEAF62248C9A100D70225 /* RandomInterval.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFDEAF52248C9A100D70225 /* RandomInterval.swift */; };
+		8EFDEAF82248CDF000D70225 /* ImitationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFDEAF72248CDF000D70225 /* ImitationModel.swift */; };
+		8EFDEAFA2248D71200D70225 /* FirstExperiment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFDEAF92248D71200D70225 /* FirstExperiment.swift */; };
+		8EFDEAFC2248D72900D70225 /* SecondExperiment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFDEAFB2248D72900D70225 /* SecondExperiment.swift */; };
+		8EFDEAFE2248D74400D70225 /* ThirdExperiment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFDEAFD2248D74400D70225 /* ThirdExperiment.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8E256C872250E5C000376E80 /* DoubleExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DoubleExtension.swift; sourceTree = "<group>"; };
 		8EFDEADA2248BEA600D70225 /* lab5.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = lab5.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EFDEADD2248BEA600D70225 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8EFDEADF2248BEA600D70225 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -21,6 +32,15 @@
 		8EFDEAE42248BEA700D70225 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8EFDEAE62248BEA700D70225 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8EFDEAE72248BEA700D70225 /* lab5.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = lab5.entitlements; sourceTree = "<group>"; };
+		8EFDEAED2248BF9900D70225 /* TimeIntervalEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeIntervalEnum.swift; sourceTree = "<group>"; };
+		8EFDEAEF2248C01A00D70225 /* InterviersAnswerEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterviersAnswerEnum.swift; sourceTree = "<group>"; };
+		8EFDEAF12248C11300D70225 /* TimeOfInterviewEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeOfInterviewEnum.swift; sourceTree = "<group>"; };
+		8EFDEAF32248C30200D70225 /* FrequencyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrequencyModel.swift; sourceTree = "<group>"; };
+		8EFDEAF52248C9A100D70225 /* RandomInterval.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomInterval.swift; sourceTree = "<group>"; };
+		8EFDEAF72248CDF000D70225 /* ImitationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImitationModel.swift; sourceTree = "<group>"; };
+		8EFDEAF92248D71200D70225 /* FirstExperiment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstExperiment.swift; sourceTree = "<group>"; };
+		8EFDEAFB2248D72900D70225 /* SecondExperiment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondExperiment.swift; sourceTree = "<group>"; };
+		8EFDEAFD2248D74400D70225 /* ThirdExperiment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdExperiment.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,12 +73,22 @@
 		8EFDEADC2248BEA600D70225 /* lab5 */ = {
 			isa = PBXGroup;
 			children = (
+				8E256C872250E5C000376E80 /* DoubleExtension.swift */,
 				8EFDEADD2248BEA600D70225 /* AppDelegate.swift */,
 				8EFDEADF2248BEA600D70225 /* ViewController.swift */,
 				8EFDEAE12248BEA700D70225 /* Assets.xcassets */,
 				8EFDEAE32248BEA700D70225 /* Main.storyboard */,
 				8EFDEAE62248BEA700D70225 /* Info.plist */,
 				8EFDEAE72248BEA700D70225 /* lab5.entitlements */,
+				8EFDEAED2248BF9900D70225 /* TimeIntervalEnum.swift */,
+				8EFDEAEF2248C01A00D70225 /* InterviersAnswerEnum.swift */,
+				8EFDEAF12248C11300D70225 /* TimeOfInterviewEnum.swift */,
+				8EFDEAF32248C30200D70225 /* FrequencyModel.swift */,
+				8EFDEAF52248C9A100D70225 /* RandomInterval.swift */,
+				8EFDEAF72248CDF000D70225 /* ImitationModel.swift */,
+				8EFDEAF92248D71200D70225 /* FirstExperiment.swift */,
+				8EFDEAFB2248D72900D70225 /* SecondExperiment.swift */,
+				8EFDEAFD2248D74400D70225 /* ThirdExperiment.swift */,
 			);
 			path = lab5;
 			sourceTree = "<group>";
@@ -133,8 +163,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E256C882250E5C000376E80 /* DoubleExtension.swift in Sources */,
+				8EFDEAF22248C11300D70225 /* TimeOfInterviewEnum.swift in Sources */,
 				8EFDEAE02248BEA600D70225 /* ViewController.swift in Sources */,
+				8EFDEAFA2248D71200D70225 /* FirstExperiment.swift in Sources */,
+				8EFDEAF02248C01A00D70225 /* InterviersAnswerEnum.swift in Sources */,
+				8EFDEAFE2248D74400D70225 /* ThirdExperiment.swift in Sources */,
+				8EFDEAFC2248D72900D70225 /* SecondExperiment.swift in Sources */,
+				8EFDEAF42248C30200D70225 /* FrequencyModel.swift in Sources */,
 				8EFDEADE2248BEA600D70225 /* AppDelegate.swift in Sources */,
+				8EFDEAEE2248BF9900D70225 /* TimeIntervalEnum.swift in Sources */,
+				8EFDEAF82248CDF000D70225 /* ImitationModel.swift in Sources */,
+				8EFDEAF62248C9A100D70225 /* RandomInterval.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
